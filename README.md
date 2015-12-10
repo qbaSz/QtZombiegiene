@@ -1,9 +1,8 @@
 # QtZombiegiene
-Index
-
-1.	Workflow
-2.	Konwencja nazewnicza
-3.	Metodyka pisania funkcji i klas
+Index:
+1. Workflow
+2. Konwencja nazewnicza
+3. Metodyka pisania funkcji i klas
 
 1.	Workflow
 		Mamy zrobiony spreadsheet, w ktorym wszyscy wpisujemy, co robimy. Jesli dodajemy guzik, to piszemy jego nazwe, jesli jakas funkcje, to podajemy jej pelna nazwe. W ten sposob, bedzie mozna sledzic, co bylo kiedy dodane i porownac, z tym, co jest w kodzie.
