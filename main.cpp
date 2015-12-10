@@ -1,6 +1,10 @@
+#include <iostream>
+
 int main(int argc, char const *argv[]) {
 	//komentarz
 	//komentarz dwa
-	//komentarz trzy
+	//komentarz cztery
+
+	std::cout << "testowanie" << std::endl;
 	return 0;
 }
