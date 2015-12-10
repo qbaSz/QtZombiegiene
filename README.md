@@ -37,17 +37,17 @@ Mamy zrobiony spreadsheet, w ktorym wszyscy wpisujemy, co robimy. Jesli dodajemy
   -  Przekazujcie przez const ref, jesli nie zmieniacie i przez wartosc, jesli zmieniacie (punkt c); nie przekazujcie przez referencje/pointer, bo innym osobom pozniej ciezko znalezc zmiany, rozczytac sie w kodzie; wydajnosc jest praktycznie ta sama.
 
 ###4.  Syntax
-		Ogolem, spacje przed i po znakach, nawiasy w tej samej linii, bez spacji przed nawiasami if else z klamrami
+Ogolem, spacje przed i po znakach, nawiasy w tej samej linii, bez spacji przed nawiasami if else z klamrami
 
-		```c++
-		for(int i = 0; i < 10; i += 1) {
-			if(m[i].isEmpty) {
-				return 1;
-			} else {
-				appendToFile(m[i]);
-			}
-		}
-		```
+    ```c++
+    for(int i = 0; i < 10; i += 1) {
+    	if(m[i].isEmpty) {
+		    return 1;
+	    } else {
+    		appendToFile(m[i]);
+	    }
+    }
+    ```
 
 ###5.  Git
   1. Nowe repozytorium lokalne: git clone https://github.com/qbaSz/QtZombiegiene
