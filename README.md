@@ -3,6 +3,8 @@ Index:
 1. Workflow
 2. Konwencja nazewnicza
 3. Metodyka pisania funkcji i klas
+4. Syntax
+5. Git
 
 1.	Workflow
 		Mamy zrobiony spreadsheet, w ktorym wszyscy wpisujemy, co robimy. Jesli dodajemy guzik, to piszemy jego nazwe, jesli jakas funkcje, to podajemy jej pelna nazwe. W ten sposob, bedzie mozna sledzic, co bylo kiedy dodane i porownac, z tym, co jest w kodzie.
@@ -33,6 +35,42 @@ Index:
 		i wywolania prywatnaMacierz = shiftLeft(prywatnaMacierz);
 		dzieki temu mozna wykorzystac te metode w kilku miejscach i latwiej sledzic zmiany danej zmiennej.
 		d) Przekazujcie przez const ref, jesli nie zmieniacie i przez wartosc, jesli zmieniacie (punkt c); nie przekazujcie przez referencje/pointer, bo innym osobom pozniej ciezko znalezc zmiany, rozczytac sie w kodzie; wydajnosc jest praktycznie ta sama.
+
+4.	Syntax
+		Ogolem, spacje przed i po znakach, nawiasy w tej samej linii, bez spacji przed nawiasami if else z klamrami
+		for(int i = 0; i < 10; i += 1) {
+			if(m[i].isEmpty) {
+				return 1;
+			} else {
+				appendToFile(m[i]);
+			}
+		}
+
+5.	Git
+		1) Nowe repozytorium lokalne: git clone https://github.com/qbaSz/QtZombiegiene
+		-> cd QtZombiegiene
+		-> git checkout -b mojbranch //robie nowego brancha o nazwie mojbranch i sie do niego przenosze
+		-> wprowadzam zmiany na moim branchu
+		-> git checkout master //przenosze sie na swojego glownego brancha
+		-> git pull //sciagam do mastera to, co jest aktualnie na qbaSz (najbardziej aktualne)
+		-> patrze, co spullowalem i weryfikuje, ze moje zmiany nic nie popsuja
+		-> git checkout mojbranch
+		-> git add .
+		-> git commit -m "tresc komentarza, tego co zrobilem" //wracam na mojego brancha i go dodaje
+		-> git branch //sprawdzam na jakim jestem branchu
+		-> git status //patrze, czy scommitowalem zmiany i czy wszystko weszlo
+		-> git checkout master
+		-> git rebase mojbranch //wracam na mastera i przenosze zmiany z mojego brancha
+		-> git push
+		-> podaje moj username i haslo z gita
+
+		2) Kazda kolejna zmiana:
+		-> wchodze do folderu QtZombiegiene
+		-> git pull //na masterze
+		-> robie brancha, jesli nie mam
+		-> git checkout mojbranch
+		-> git rebase master //jesli juz mam
+		-> wprowadzam zmiany...
 
 do kontynuacji
 
