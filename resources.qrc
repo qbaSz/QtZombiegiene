@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/app_icon.png</file>
+        <file>images/bckg_1_cave.png</file>
+        <file>images/bckg_2_floor.png</file>
+        <file>images/bg_dialog.png</file>
+        <file>images/button_bath.png</file>
+        <file>images/button_bed.png</file>
+        <file>images/button_eat.png</file>
+        <file>images/button_hands.png</file>
+        <file>images/button_play.png</file>
+        <file>images/button_teeth.png</file>
+        <file>images/cave_finally.png</file>
+        <file>images/closed_eyes.png</file>
+        <file>images/creature.png</file>
+        <file>images/creature_0.png</file>
+        <file>images/creature_1.png</file>
+        <file>images/creature_2.png</file>
+        <file>images/creature_3.png</file>
+        <file>images/creature_4.png</file>
+        <file>images/creature_5.png</file>
+        <file>images/creature_6.png</file>
+        <file>images/zombie_head_playing.png</file>
+        <file>images/zombie_head_sleep.png</file>
+    </qresource>
+</RCC>
