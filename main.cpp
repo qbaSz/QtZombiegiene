@@ -1,5 +1,6 @@
 int main(int argc, char const *argv[]) {
 	//komentarz
-	//komentarz 2
+	//komentarz dwa
+	//komentarz trzy
 	return 0;
 }
