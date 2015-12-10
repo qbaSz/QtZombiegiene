@@ -1,11 +1,11 @@
-#include <iostream>
+#include "mainwindow.h"
+#include <QApplication>
 
-int main(int argc, char const *argv[]) {
-	//komentarz
-	//komentarz dwa
-	//komentarz cztery
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
 
-	std::cout << "testowanie 2" << std::endl;
-
-	return 0;
+    return a.exec();
 }
