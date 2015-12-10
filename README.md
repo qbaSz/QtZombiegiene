@@ -56,12 +56,12 @@ Index:
 		-> patrze, co spullowalem i weryfikuje, ze moje zmiany nic nie popsuja
 		-> git checkout mojbranch
 		-> git add .
-		-> git commit -m "tresc komentarza, tego co zrobilem" //wracam na mojego brancha i go dodaje
+		-> git commit -m "tresc komentarza, tego co zrobilem" //wracam na mojego brancha i dodaje wszystkie pliki
 		-> git branch //sprawdzam na jakim jestem branchu
 		-> git status //patrze, czy scommitowalem zmiany i czy wszystko weszlo
 		-> git checkout master
 		-> git rebase mojbranch //wracam na mastera i przenosze zmiany z mojego brancha
-		-> git push
+		-> git push origin master
 		-> podaje moj username i haslo z gita
 
 		2) Kazda kolejna zmiana:
@@ -71,6 +71,8 @@ Index:
 		-> git checkout mojbranch
 		-> git rebase master //jesli juz mam
 		-> wprowadzam zmiany...
+
+		-> git branch -D mojbranch //usuwam brancha o nazwie mojbranch
 
 do kontynuacji
 
