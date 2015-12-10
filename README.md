@@ -43,9 +43,9 @@ Ogolem, spacje przed i po znakach, nawiasy w tej samej linii, bez spacji przed n
 for(int i = 0; i < 10; i += 1) {
     if(m[i].isEmpty) {
 		return 1;
-	} else {
+	} else if(m[i].size < 100) {
     	appendToFile(m[i]);
-	}
+	} else return 13;
 }
 ```
 
@@ -60,7 +60,7 @@ for(int i = 0; i < 10; i += 1) {
     * git checkout mojbranch
     * git add .
     * git commit -m "tresc komentarza, tego co zrobilem" //wracam na mojego brancha i dodaje wszystkie pliki
-    * git branch //sprawdzam na jakim jestem branchu
+    * git branch //**sprawdzam na jakim jestem branchu**
     * git status //patrze, czy scommitowalem zmiany i czy wszystko weszlo
     * git checkout master
     * git rebase mojbranch //wracam na mastera i przenosze zmiany z mojego brancha
