@@ -5,6 +5,7 @@ int main(int argc, char const *argv[]) {
 	//komentarz dwa
 	//komentarz cztery
 
-	std::cout << "testowanie" << std::endl;
+	std::cout << "testowanie 2" << std::endl;
+
 	return 0;
 }
