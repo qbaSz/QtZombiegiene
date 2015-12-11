@@ -81,7 +81,6 @@ for(int i = 0; i < 10; i += 1) {
     * git branch -D mojbranch //usuwam brancha o nazwie mojbranch
 
 do kontynuacji
-test na nowym VM
 
 
 
