@@ -38,7 +38,7 @@ Mamy zrobiony spreadsheet, w którym wszyscy wpisujemy, co robimy. Jeśli dodaje
 	i wywołania jej po prostu `shiftLeft();` lepiej pisać: `Macierz shiftLeft(Macierz m);` i wywołania `prywatnaMacierz = shiftLeft(prywatnaMacierz);` dzięki temu można wykorzystać tę metodę w kilku miejscach i łatwiej śledzić zmiany danej zmiennej, np. debugując.
   -  Przekazujcie przez const ref, jeśli nie zmieniacie i przez wartość, jesli zmieniacie (poprzedni punkt); nie przekazujcie przez referencję/pointer, bo innym osobom później ciężko znaleźć zmiany, rozczytać się w kodzie; wydajność jest praktycznie ta sama.
 
-###4 Include'owanie
+###4. Include'owanie
 Róbcie include'y tylko na to, co potrzebujecie. Jak korzystacie z QVector, QFile, QTextStream, to zróbcie:
 ```c++
 #include <QVector>
@@ -93,7 +93,7 @@ for(int i = 0; i < 10; i += 1) {
     * git commit -m "komentarz"
     * git checkout master
     * git rebase mojbranch
-    * //jesli wszystko jest ok to: **git push origin master**
+    * //jeśli wszystko jest ok to: **git push origin master**
     * git branch -D mojbranch //usuwam brancha o nazwie mojbranch
 
 do kontynuacji
