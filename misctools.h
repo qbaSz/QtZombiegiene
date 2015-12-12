@@ -5,10 +5,10 @@
 
 class MiscTools {
 private:
-    bool fileExists(QString directory);
+    bool fileExists(QString path);
 
 public:
-    QVector<QString> readFile(QString directory);
+    QVector<QString> readFile(QString path);
 
 };
 
